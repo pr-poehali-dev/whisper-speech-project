@@ -75,7 +75,7 @@ export default function Chapter1Birth() {
           >
             <div className="relative overflow-hidden" style={{ height: 400 }}>
               <img
-                src="https://cdn.poehali.dev/projects/ca3d42f6-d34b-4d20-8a83-e2dbf1c5b042/files/8649f11d-9f1f-4f6f-a032-47a8027ecc2d.jpg"
+                src="https://www.mosfilm.ru/upload/iblock/31e/m5n0vksmdn72qm5vs5s01an3l7f7y57q/09_1_min-_1_.jpg"
                 alt="Первый павильон Мосфильма"
                 className="w-full h-full object-cover"
                 style={{ filter: 'grayscale(80%)' }}
