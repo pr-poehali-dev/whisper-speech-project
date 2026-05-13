@@ -14,25 +14,47 @@ export default function Promo() {
       ref={container}
       className="relative flex items-center justify-center h-screen overflow-hidden"
       style={{ clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)" }}
+      id="finale"
     >
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
-        <motion.div style={{ y }} className="relative w-full h-full">
+        <motion.div style={{ y, willChange: "transform" }} className="relative w-full h-full">
           <img
-            src="/images/spiral-circles.jpg"
-            alt="Abstract spiral circles"
+            src="/images/hero-frame.jpg"
+            alt="Рабочий и Колхозница"
             className="w-full h-full object-cover"
+          />
+          <div
+            className="absolute inset-0"
+            style={{ background: 'linear-gradient(to bottom, rgba(11,27,61,0.5) 0%, rgba(11,27,61,0.65) 100%)' }}
           />
         </motion.div>
       </div>
 
-      <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
-        Анатомия возможностей
-      </h3>
+      <div className="absolute inset-0 flex flex-col items-center justify-center z-10 px-6 text-center">
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 0.7 }}
+          className="text-xs uppercase tracking-widest mb-8"
+          style={{ color: '#D4AF37', fontFamily: 'Montserrat, sans-serif' }}
+        >
+          Эпилог
+        </motion.div>
 
-      <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Каждая секция — рамка для твоей истории. Формируй её, миксуй и позволь контенту
-        литься в неожиданные паттерны, заставляя листать дальше.
-      </p>
+        <motion.p
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.5 }}
+          transition={{ duration: 1, delay: 0.2 }}
+          className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl max-w-4xl leading-snug font-bold"
+          style={{ fontFamily: 'Montserrat, sans-serif' }}
+        >
+          Сто лет Мосфильм остаётся местом,<br />
+          где мечты превращаются в кадры.<br />
+          <span style={{ color: '#D4AF37' }}>И похоже, это только начало.</span>
+        </motion.p>
+      </div>
     </div>
   );
 }
