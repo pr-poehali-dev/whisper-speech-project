@@ -40,49 +40,15 @@ export default function Footer() {
                 ))}
               </div>
 
-              <div className="flex flex-col gap-2">
-                <h3
-                  className="mb-2 uppercase text-xs sm:text-sm font-semibold tracking-wider"
-                  style={{ color: '#D4AF37', fontFamily: 'Montserrat, sans-serif' }}
-                >
-                  Мосфильм
-                </h3>
-                <a
-                  href="https://mosfilm.ru"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white/70 hover:text-white transition-colors duration-300 text-sm sm:text-base"
-                  style={{ fontFamily: 'Inter, sans-serif' }}
-                >
-                  mosfilm.ru
-                </a>
-                <a
-                  href="https://mosfilm.ru/museum"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white/70 hover:text-white transition-colors duration-300 text-sm sm:text-base"
-                  style={{ fontFamily: 'Inter, sans-serif' }}
-                >
-                  Музей
-                </a>
-                <a
-                  href="https://mosfilm.ru/excursion"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white/70 hover:text-white transition-colors duration-300 text-sm sm:text-base"
-                  style={{ fontFamily: 'Inter, sans-serif' }}
-                >
-                  Экскурсии
-                </a>
-              </div>
+
             </div>
 
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4">
               <h1
-                className="text-[18vw] sm:text-[16vw] lg:text-[13vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 font-black tracking-tight"
+                className="text-[9vw] sm:text-[8vw] lg:text-[7vw] leading-[1] mt-4 sm:mt-6 lg:mt-10 font-black tracking-tight"
                 style={{ color: '#D4AF37', fontFamily: 'Montserrat, sans-serif', opacity: 0.9 }}
               >
-                МОСФИЛЬМ
+                Мосфильм: кино,<br />которое пережило эпоху
               </h1>
               <p
                 className="text-white/40 text-sm"
