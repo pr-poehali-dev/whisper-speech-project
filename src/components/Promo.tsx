@@ -19,7 +19,7 @@ export default function Promo() {
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
         <motion.div style={{ y, willChange: "transform" }} className="relative w-full h-full">
           <img
-            src="https://cdn.poehali.dev/projects/ca3d42f6-d34b-4d20-8a83-e2dbf1c5b042/files/8ba0a501-4708-485b-b46a-6c133b07e568.jpg"
+            src="https://www.mosfilm.ru/upload/iblock/abc/lddimak35e1p513wdnc6nfwkzr5nmxen/Frame_2131327157_2_min.jpg"
             alt="Рабочий и Колхозница"
             className="w-full h-full object-cover"
           />

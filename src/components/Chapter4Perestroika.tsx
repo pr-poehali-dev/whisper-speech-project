@@ -127,7 +127,7 @@ export default function Chapter4Perestroika() {
           >
             <div className="relative overflow-hidden" style={{ height: 480 }}>
               <img
-                src="https://cdn.poehali.dev/projects/ca3d42f6-d34b-4d20-8a83-e2dbf1c5b042/files/9ccac42a-53aa-4404-8957-113519d19b7f.jpg"
+                src="https://www.mosfilm.ru/upload/iblock/22d/j71i4uiu9fg6xx8qqrj5cjb9zpn640s5/Frame-2131330281_min.jpg"
                 alt="Запущенный павильон Мосфильма"
                 className="w-full h-full object-cover"
                 style={{ filter: 'grayscale(60%) brightness(0.7)' }}

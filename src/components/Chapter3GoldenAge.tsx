@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 
-const GOLDEN_AGE_IMG = "https://cdn.poehali.dev/projects/ca3d42f6-d34b-4d20-8a83-e2dbf1c5b042/files/ed75c9a7-d7f8-4cb2-a31d-f9d4a278cbb9.jpg";
+const GOLDEN_AGE_IMG = "https://www.mosfilm.ru/upload/iblock/31e/m5n0vksmdn72qm5vs5s01an3l7f7y57q/09_1_min-_1_.jpg";
 
 const films = [
   {

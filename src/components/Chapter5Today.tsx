@@ -75,7 +75,7 @@ export default function Chapter5Today() {
           >
             <motion.div style={{ y: mapY, willChange: "transform" }} className="absolute inset-0 w-full h-full">
               <img
-                src="https://cdn.poehali.dev/projects/ca3d42f6-d34b-4d20-8a83-e2dbf1c5b042/files/e3709693-e323-4114-a793-05203552b400.jpg"
+                src="https://www.mosfilm.ru/upload/iblock/d33/93xmzwu4yv5acpv70okja9gxjy34r8m6/tg_image_3447924520_min.jpeg"
                 alt="Карта Мосфильма"
                 className="w-full h-full object-cover"
                 style={{ filter: 'saturate(0.6) brightness(0.85)' }}

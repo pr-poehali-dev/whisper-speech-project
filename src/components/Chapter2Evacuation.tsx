@@ -6,19 +6,19 @@ const slides = [
     title: "Июль 1941: приказ об эвакуации",
     text: "Через месяц после начала войны руководство студии получило приказ об эвакуации. За несколько дней были упакованы тысячи метров плёнки, камеры, осветительное оборудование.",
     detail: "Оборудование вывозили на грузовиках под обстрелами — каждый ящик был на вес золота.",
-    img: "https://cdn.poehali.dev/projects/ca3d42f6-d34b-4d20-8a83-e2dbf1c5b042/files/8ec21196-85e4-41cb-a72a-4075e9945f40.jpg",
+    img: "https://www.mosfilm.ru/upload/iblock/10d/ytt0x58hre2kbvkho6ehj5ekpmoxw6az/Bez-nazvaniya.jpg",
   },
   {
     title: "Алма-Ата: студия в эвакуации",
     text: "Мосфильм объединился с Ленфильмом и образовал ЦОКС — Центральную объединённую киностудию в Алма-Ате. В невероятно тяжёлых условиях продолжали снимать фильмы для фронта.",
     detail: "Здесь в эвакуации снималось более 80% советских фильмов военных лет.",
-    img: "https://cdn.poehali.dev/projects/ca3d42f6-d34b-4d20-8a83-e2dbf1c5b042/files/8ec21196-85e4-41cb-a72a-4075e9945f40.jpg",
+    img: "https://www.mosfilm.ru/upload/iblock/10d/ytt0x58hre2kbvkho6ehj5ekpmoxw6az/Bez-nazvaniya.jpg",
   },
   {
     title: "Возвращение. 1944",
     text: "Ещё до окончания войны часть сотрудников вернулась в Москву. Студия была частично разрушена, но работа не останавливалась — кино было нужно стране как воздух.",
     detail: "Первым послевоенным фильмом стала картина «Иван Грозный» С. Эйзенштейна.",
-    img: "https://cdn.poehali.dev/projects/ca3d42f6-d34b-4d20-8a83-e2dbf1c5b042/files/8ec21196-85e4-41cb-a72a-4075e9945f40.jpg",
+    img: "https://www.mosfilm.ru/upload/iblock/10d/ytt0x58hre2kbvkho6ehj5ekpmoxw6az/Bez-nazvaniya.jpg",
   },
 ];
 
