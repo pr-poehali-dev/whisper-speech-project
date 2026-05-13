@@ -172,7 +172,7 @@ export default function Chapter5Today() {
                 { value: "35", label: "гектаров территории" },
                 { value: "3 000+", label: "картин в архиве" },
                 { value: "1 000+", label: "экспонатов в музее" },
-                { value: "100", label: "лет истории" },
+                { value: "100+", label: "лет истории" },
               ].map((stat) => (
                 <div key={stat.label} className="p-4" style={{ background: '#f8f8f8', borderTop: '2px solid #D4AF37' }}>
                   <div className="text-2xl font-black" style={{ color: '#0B1B3D', fontFamily: 'Montserrat, sans-serif' }}>
