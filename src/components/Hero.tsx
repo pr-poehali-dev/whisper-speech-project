@@ -20,7 +20,7 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="https://cdn.poehali.dev/projects/ca3d42f6-d34b-4d20-8a83-e2dbf1c5b042/files/ce652b32-e7bb-46ae-b59c-34bc14156167.jpg"
+          src="https://storage.yandexcloud.net/moskvichmag/uploads/2022/08/mosfilm1.jpg"
           alt="Мосфильм — панорама студии"
           className="w-full h-full object-cover"
         />
