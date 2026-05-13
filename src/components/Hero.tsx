@@ -20,8 +20,8 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Мосфильм"
+          src="https://cdn.poehali.dev/projects/ca3d42f6-d34b-4d20-8a83-e2dbf1c5b042/files/ce652b32-e7bb-46ae-b59c-34bc14156167.jpg"
+          alt="Мосфильм — панорама студии"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(11,27,61,0.65) 0%, rgba(11,27,61,0.45) 50%, rgba(11,27,61,0.75) 100%)' }} />
@@ -35,7 +35,7 @@ export default function Hero() {
           className="text-xs uppercase tracking-widest mb-6"
           style={{ color: '#D4AF37', fontFamily: 'Montserrat, sans-serif' }}
         >
-          1924 — 2024 · Сто лет кино
+          Мосфильм: кино, которое пережило эпоху
         </motion.div>
 
         <motion.h1

@@ -1,6 +1,8 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 
+const GOLDEN_AGE_IMG = "https://cdn.poehali.dev/projects/ca3d42f6-d34b-4d20-8a83-e2dbf1c5b042/files/ed75c9a7-d7f8-4cb2-a31d-f9d4a278cbb9.jpg";
+
 const films = [
   {
     title: "Война и мир",
@@ -76,8 +78,14 @@ export default function Chapter3GoldenAge() {
               whileHover={{ y: -6 }}
               whileTap={{ scale: 0.98 }}
             >
+              {activeCard !== i && (
+                <div className="absolute inset-0 w-full h-40">
+                  <img src={GOLDEN_AGE_IMG} alt="" className="w-full h-full object-cover" style={{ filter: 'grayscale(70%) brightness(0.35)' }} />
+                  <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, transparent 40%, #0B1B3D 100%)' }} />
+                </div>
+              )}
               <div
-                className="p-8"
+                className="relative p-8"
                 style={{ minHeight: activeCard === i ? 'auto' : 280 }}
               >
                 <div

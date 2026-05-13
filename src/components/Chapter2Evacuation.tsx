@@ -6,16 +6,19 @@ const slides = [
     title: "Июль 1941: приказ об эвакуации",
     text: "Через месяц после начала войны руководство студии получило приказ об эвакуации. За несколько дней были упакованы тысячи метров плёнки, камеры, осветительное оборудование.",
     detail: "Оборудование вывозили на грузовиках под обстрелами — каждый ящик был на вес золота.",
+    img: "https://cdn.poehali.dev/projects/ca3d42f6-d34b-4d20-8a83-e2dbf1c5b042/files/8ec21196-85e4-41cb-a72a-4075e9945f40.jpg",
   },
   {
     title: "Алма-Ата: студия в эвакуации",
     text: "Мосфильм объединился с Ленфильмом и образовал ЦОКС — Центральную объединённую киностудию в Алма-Ате. В невероятно тяжёлых условиях продолжали снимать фильмы для фронта.",
     detail: "Здесь в эвакуации снималось более 80% советских фильмов военных лет.",
+    img: "https://cdn.poehali.dev/projects/ca3d42f6-d34b-4d20-8a83-e2dbf1c5b042/files/8ec21196-85e4-41cb-a72a-4075e9945f40.jpg",
   },
   {
     title: "Возвращение. 1944",
     text: "Ещё до окончания войны часть сотрудников вернулась в Москву. Студия была частично разрушена, но работа не останавливалась — кино было нужно стране как воздух.",
     detail: "Первым послевоенным фильмом стала картина «Иван Грозный» С. Эйзенштейна.",
+    img: "https://cdn.poehali.dev/projects/ca3d42f6-d34b-4d20-8a83-e2dbf1c5b042/files/8ec21196-85e4-41cb-a72a-4075e9945f40.jpg",
   },
 ];
 
@@ -84,9 +87,18 @@ export default function Chapter2Evacuation() {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: direction * -60 }}
               transition={{ duration: 0.5 }}
-              className="relative z-10 p-8 md:p-12"
+              className="relative z-10 flex flex-col md:flex-row gap-0 overflow-hidden"
               style={{ border: '1px solid rgba(212,175,55,0.2)' }}
             >
+              <div className="hidden md:block md:w-64 lg:w-80 flex-shrink-0 relative" style={{ minHeight: 280 }}>
+                <img
+                  src={slides[current].img}
+                  alt={slides[current].title}
+                  className="absolute inset-0 w-full h-full object-cover"
+                  style={{ filter: 'grayscale(80%) brightness(0.6)' }}
+                />
+              </div>
+              <div className="p-8 md:p-10 flex-1">
               <div
                 className="text-5xl md:text-7xl font-black mb-4 leading-none select-none"
                 style={{ color: 'rgba(212,175,55,0.1)', fontFamily: 'Montserrat, sans-serif' }}
@@ -105,6 +117,7 @@ export default function Chapter2Evacuation() {
               <p className="text-sm" style={{ color: '#D4AF37', fontFamily: 'Inter, sans-serif' }}>
                 {slides[current].detail}
               </p>
+              </div>
             </motion.div>
           </AnimatePresence>
         </motion.div>
